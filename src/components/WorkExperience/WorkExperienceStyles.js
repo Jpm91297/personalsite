@@ -1,10 +1,21 @@
 import styled from "styled-components";
 
+
+export const WorkExperienceHeader = styled.h1`
+background: #0F1624;
+margin: 0;
+font-family: 'Space Grotesk', sans-serif;
+font-size: 4rem;
+color: white;
+padding: 6%;
+text-align:center;
+`
 export const WorkExperienceWrap = styled.div`
     background: #0F1624; 
     color: white;
     font-family: 'Space Grotesk', sans-serif;
     z-index: 1;
+    padding-bottom: 30px;
 
     .swiper-button-prev {
         color: white; 

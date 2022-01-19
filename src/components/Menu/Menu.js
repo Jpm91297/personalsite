@@ -3,9 +3,9 @@ import { bool } from 'prop-types';
 import { StyledMenu } from "./MenuStyles";
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 
-const Menu = ({ open }) => {
+const Menu = ({ open, setOpen }) => {
     return (
-      <StyledMenu open={open}>
+      <StyledMenu open={ open }>
         <h1>
           Menu
         </h1>
@@ -17,19 +17,19 @@ const Menu = ({ open }) => {
                 <AiFillLinkedin size="5rem" />
             </a>
         </div>
-        <a href="/">
+        <a href="#workexperience" onClick={() => setOpen(!open)}>
           <span role="img" aria-label="Experience"></span>
           Work Experience
         </a>
-        <a href="/">
+        <a href="#projects" onClick={() => setOpen(!open)}>
           <span role="img" aria-label="Projects"></span>
           Projects
           </a>
-        <a href="/">
+        <a href="/" onClick={() => setOpen(!open)}>
           <span role="img" aria-label="Technologies"></span>
           Technologies
           </a>
-        <a href="/">
+        <a href="/" onClick={() => setOpen(!open)}>
           <span role="img" aria-label="About Me"></span>
           About Me
           </a>

@@ -54,6 +54,9 @@ const data = [
 
 const WorkExperience = () => (
 <>
+<S.WorkExperienceHeader id="workexperience">
+    Work Experience
+</S.WorkExperienceHeader>
 <S.WorkExperienceWrap>
 <Swiper
     className="swiper-container"
