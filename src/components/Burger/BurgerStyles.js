@@ -35,7 +35,7 @@ export const StyledBurger = styled.button`
     transition: all 0.3s linear;
     position: relative;
     transform-origin: 1px;
-    background: ${({ open }) => open ? 'black' : 'white'};
+    background: ${({ openMenu }) => openMenu ? 'black' : 'white'};
   }
 
 `

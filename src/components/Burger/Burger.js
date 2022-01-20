@@ -2,9 +2,9 @@ import React from 'react';
 import { bool, func } from 'prop-types';
 import { StyledBurger } from './BurgerStyles';
 
-const Burger = ({ open, setOpen }) => {
+const Burger = ({ openMenu, setOpenMenu }) => {
   return (
-    <StyledBurger open={open} onClick={() => setOpen(!open)}>
+    <StyledBurger openMenu={openMenu} onClick={() => setOpenMenu(!openMenu)}>
       <div />
       <div />
       <div />
@@ -12,8 +12,8 @@ const Burger = ({ open, setOpen }) => {
   )
 }
 Burger.propTypes = {
-    open: bool.isRequired,
-    setOpen: func.isRequired,
+    openMenu: bool.isRequired,
+    setOpenMenu: func.isRequired,
   };
 
 export default Burger;

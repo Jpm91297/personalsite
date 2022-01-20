@@ -7,7 +7,7 @@ margin: 0;
 font-family: 'Space Grotesk', sans-serif;
 font-size: 4rem;
 color: white;
-padding: 6%;
+padding: 2.5% 6% 6% 6%;
 text-align:center;
 `
 export const WorkExperienceWrap = styled.div`

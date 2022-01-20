@@ -11,7 +11,7 @@ git commit -m "message"
 git push origin main
 */
 
-const Header = ({open, setOpen}) => (
+const Header = ({openMenu, setOpenMenu}) => (
 
     <S.headerWrap>
         <div className='logo'>
@@ -48,7 +48,7 @@ const Header = ({open, setOpen}) => (
             <a href="https://linkedin.com/in/mckinneyjp" target="_blank">
                 <AiFillLinkedin size="3rem" />
             </a>
-            <Burger className='Burger' open={open} setOpen={setOpen} />
+            <Burger className='Burger' openMenu={openMenu} setOpenMenu={setOpenMenu} />
         </div>
     </S.headerWrap>
     

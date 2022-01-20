@@ -3,9 +3,9 @@ import { bool } from 'prop-types';
 import { StyledMenu } from "./MenuStyles";
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 
-const Menu = ({ open, setOpen }) => {
+const Menu = ({ openMenu, setOpenMenu }) => {
     return (
-      <StyledMenu open={ open }>
+      <StyledMenu openMenu={ openMenu }>
         <h1>
           Menu
         </h1>
@@ -17,19 +17,19 @@ const Menu = ({ open, setOpen }) => {
                 <AiFillLinkedin size="5rem" />
             </a>
         </div>
-        <a href="#workexperience" onClick={() => setOpen(!open)}>
+        <a href="#workexperience" onClick={() => setOpenMenu(!openMenu)}>
           <span role="img" aria-label="Experience"></span>
           Work Experience
         </a>
-        <a href="#projects" onClick={() => setOpen(!open)}>
+        <a href="#projects" onClick={() => setOpenMenu(!openMenu)}>
           <span role="img" aria-label="Projects"></span>
           Projects
           </a>
-        <a href="/" onClick={() => setOpen(!open)}>
+        <a href="/" onClick={() => setOpenMenu(!openMenu)}>
           <span role="img" aria-label="Technologies"></span>
           Technologies
           </a>
-        <a href="/" onClick={() => setOpen(!open)}>
+        <a href="/" onClick={() => setOpenMenu(!openMenu)}>
           <span role="img" aria-label="About Me"></span>
           About Me
           </a>
@@ -37,6 +37,6 @@ const Menu = ({ open, setOpen }) => {
     )
   }
   Menu.propTypes = {
-    open: bool.isRequired,
+    openMenu: bool.isRequired,
   }
   export default Menu;

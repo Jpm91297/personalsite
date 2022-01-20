@@ -3,7 +3,7 @@ import * as S from './HeroStyles';
 
 
 
-const Hero = () => (
+const Hero = ({openContact, setOpenContact}) => (
   <S.heroWrap>
     <h2 className="heroTitle">
       Welcome!
@@ -12,7 +12,7 @@ const Hero = () => (
       My name is Jordan McKinney, a software engineer based in Cincinnati, Ohio.<br /> I built this site entirely from scratch using React.js. I enjoy constantly learning new things and applying that knowledge to solve real-word problems.
     </p>
     <img src="images/headshot.jpg" />
-    <button className="contactMe">
+    <button className="contactMe" openContact={openContact} onClick={() => setOpenContact(!openContact)}>
       Contact Me
     </button>
     

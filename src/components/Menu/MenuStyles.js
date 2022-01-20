@@ -13,7 +13,7 @@ export const StyledMenu = styled.nav`
   right: 0;
   transition: transform 0.3s ease-in-out;
   transform: 'translateX(100%)';
-  display: ${({ open }) => open ? 'flex' : 'none'};
+  display: ${({ openMenu }) => openMenu ? 'flex' : 'none'};
   z-index: 2;
   
   h1 {
