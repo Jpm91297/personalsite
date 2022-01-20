@@ -32,7 +32,7 @@ export const ProjectCard = styled.div`
     width: 100%;
     border-radius: 10px;
     border: 2px dotted rgba(0, 255, 145, 0.8);
-    box-shadow: 3px 3px 50px rgba(80, 78, 78, 0.5);
+    box-shadow: 3px 3px 20px rgba(0, 255, 145, 0.8);
     @media screen and (max-width: 1200px) {
         margin-top: 25px;
     }

@@ -1,12 +1,16 @@
 import React from "react";
+import CloseButton from 'react-bootstrap/CloseButton'
 import * as S from './ContactMeStyles';
 
 const ContactMe = ({openContact, setOpenContact}) => (
     <S.contactMe openContact ={ openContact }>
-        Hello World
-        <button onClick={() => setOpenContact(!openContact)}>Close</button>
+        <CloseButton className="btn" variant="white"  onClick={() => setOpenContact(!openContact)}/>
+        <h1>
+            Contact Me
+            
+        </h1>
+        
     </S.contactMe>
-
 )
 
 
