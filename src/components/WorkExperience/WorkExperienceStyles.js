@@ -16,6 +16,7 @@ export const WorkExperienceWrap = styled.div`
     font-family: 'Space Grotesk', sans-serif;
     z-index: 1;
     padding-bottom: 30px;
+   
 
     .swiper-button-prev {
         color: white; 
@@ -30,6 +31,7 @@ export const WorkExperienceWrap = styled.div`
         height: auto;
         width: 75%;
         border: 2px dotted rgba(0, 255, 145, 0.8);
+        box-shadow: 3px 3px 20px rgba(0, 255, 145, 0.8);
     }
 
     .swiper-slide {
