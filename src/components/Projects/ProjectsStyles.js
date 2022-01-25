@@ -17,7 +17,7 @@ export const GridContainer = styled.div`
     padding: 2em 15%;
     grid-template-columns: 50% 50%;
     grid-template-rows: 1fr 1fr;
-    grid-gap: 1.5em;
+    grid-gap: 3.5em;
     font-family: 'Space Grotesk', sans-serif;
     color:white;
     text-align: center;

@@ -6,6 +6,8 @@ import WorkExperience from "./components/WorkExperience/WorkExperience";
 import Menu from "./components/Menu/Menu";
 import ContactMe from './components/ContactMe/ContactMe';
 import Technologies from './components/Technologies/Technologies';
+import AboutMe from './components/AboutMe/AboutMe';
+import Footer from './components/Footer/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -22,6 +24,8 @@ const App = () => {
     <WorkExperience />
     <Projects />
     <Technologies />
+    <AboutMe />
+    <Footer />
     </>
   )
   }

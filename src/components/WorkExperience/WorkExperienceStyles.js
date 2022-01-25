@@ -10,6 +10,10 @@ font-weight: 900;
 color: white;
 padding: 2.5% 6% 6% 6%;
 text-align:center;
+
+@media screen and (max-width: 1200px) {
+    font-size: 3rem;
+}
 `
 export const WorkExperienceWrap = styled.div`
     background: #0F1624; 

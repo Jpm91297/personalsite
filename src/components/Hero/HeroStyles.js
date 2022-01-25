@@ -6,7 +6,7 @@ export const heroWrap = styled.div`
   grid-template-columns: 50% 50%;
   background: #0F1624;
   margin: 0 auto;
-  padding: 80px;
+  padding: 80px 80px 0px 80px;
 
     .heroTitle {
       padding-top: 2.5%;

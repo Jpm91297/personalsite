@@ -10,6 +10,8 @@ export const headerWrap = styled.div`
 	font-family: 'Space Grotesk', sans-serif;
   background: #0F1624; 
   border-bottom: 2px dotted rgba(0, 255, 145, 0.8);
+ 
+  
 
   .logo {
     grid-area: logo;

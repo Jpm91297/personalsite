@@ -61,7 +61,6 @@ const WorkExperience = () => (
 <Swiper
     className="swiper-container"
     navigation
-    pagination={{clickable: true}}
     slidesPerView={1}
     onSlideChange={() => console.log('slide change')}
     onSwiper={(swiper) => console.log(swiper)}

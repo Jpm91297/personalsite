@@ -14,7 +14,7 @@ export const StyledMenu = styled.nav`
   transition: transform 0.3s ease-in-out;
   transform: 'translateX(100%)';
   display: ${({ openMenu }) => openMenu ? 'flex' : 'none'};
-  z-index: 2;
+  z-index: 3;
   
   h1 {
     text-align: center;
