@@ -5,6 +5,7 @@ background: #0F1624;
 margin: 0;
 font-family: 'Space Grotesk', sans-serif;
 font-size: 4rem;
+font-weight: 900;
 color: white;
 padding: 6%;
 text-align:center;
@@ -40,8 +41,8 @@ export const ProjectCard = styled.div`
 `;
 
 export const Img = styled.img`
-    height: auto;
-    width: 50%;
+    height: 256px;
+    width: 256px;
 `;
 
 export const Visit = styled.button`

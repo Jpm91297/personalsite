@@ -6,6 +6,7 @@ background: #0F1624;
 margin: 0;
 font-family: 'Space Grotesk', sans-serif;
 font-size: 4rem;
+font-weight: 900;
 color: white;
 padding: 2.5% 6% 6% 6%;
 text-align:center;

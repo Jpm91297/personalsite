@@ -5,6 +5,7 @@ import Hero from "./components/Hero/Hero";
 import WorkExperience from "./components/WorkExperience/WorkExperience";
 import Menu from "./components/Menu/Menu";
 import ContactMe from './components/ContactMe/ContactMe';
+import Technologies from './components/Technologies/Technologies';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -20,6 +21,7 @@ const App = () => {
     <Hero openContact={openContact} setOpenContact={setOpenContact} />
     <WorkExperience />
     <Projects />
+    <Technologies />
     </>
   )
   }
