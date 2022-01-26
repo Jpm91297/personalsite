@@ -8,20 +8,25 @@ export const StyledMenu = styled.nav`
   height: 100vh;
   text-align: left;
   padding: 2rem;
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   transition: transform 0.3s ease-in-out;
   transform: 'translateX(100%)';
   display: ${({ openMenu }) => openMenu ? 'flex' : 'none'};
   z-index: 3;
+
+  .btn {
+    margin-left: 90%;
+    font-size: 25px;
+  }
   
   h1 {
     text-align: center;
     color: white;
     font-family: 'Space Grotesk', sans-serif;
     font-size: 2rem;
-    padding-bottom: 4px;
+    padding-bottom: 8px;
     border-bottom: 2px dotted rgba(0, 255, 145, 0.8);
   }
 

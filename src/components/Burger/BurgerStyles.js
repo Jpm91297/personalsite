@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledBurger = styled.button`
   grid-area:social;
-  z-index:3;
+  z-index: 3;
   top: 5%;
   left: 2rem;
   display: flex;

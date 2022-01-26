@@ -2,10 +2,13 @@ import React from "react";
 import { bool } from 'prop-types';
 import { StyledMenu } from "./MenuStyles";
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import CloseButton from 'react-bootstrap/CloseButton';
+
 
 const Menu = ({ openMenu, setOpenMenu }) => {
     return (
       <StyledMenu openMenu={ openMenu }>
+        <CloseButton className="btn" variant="white"  onClick={() => setOpenMenu(!openMenu)}/>
         <h1>
           Menu
         </h1>

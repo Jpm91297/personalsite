@@ -1,10 +1,13 @@
 import React from "react";
+import * as S from './FooterStyles';
 
 const Footer = () => (
-    <>
-        This is my footer
-    </>
-
+    <S.FooterStyles>
+        <div className="divider"></div>
+        <h3>
+            Copyright 2022 Jordan McKinney
+        </h3>
+    </S.FooterStyles>
 
 )
 

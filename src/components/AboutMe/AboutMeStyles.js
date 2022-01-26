@@ -22,6 +22,7 @@ export const AboutMeWrap = styled.div`
     font-family: 'Space Grotesk', sans-serif;
     display: grid;
     grid-template-columns: 40% 60%;
+    padding-bottom: 75px;
 
     @media screen and (max-width: 1200px) {
         display: flex;
@@ -38,6 +39,7 @@ export const AboutMeWrap = styled.div`
     .about-content h1 {
         padding: 20px 0px;
         font-weight: 900;
+        text-align: center;
     }
 
 
