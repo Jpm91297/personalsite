@@ -29,7 +29,7 @@ const data = [
         title: 'Software Engineer',
         time: '5/2020 - 9/2020',
         description: {
-            desc1: 'Back-end development team member for a web-based streaming application (React.js)',
+            desc1: 'Back-end development team member for a web-based streaming MERN application',
             desc2: 'Created protected routes for user authentication via Facebook and Google strategies',
             desc3: 'Effectively modeled data for seamless integration with non-relational database applications'
 

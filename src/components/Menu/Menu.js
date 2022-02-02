@@ -13,7 +13,7 @@ const Menu = ({ openMenu, setOpenMenu }) => {
           Menu
         </h1>
         <div className='social'>
-            <a href="https://github.com" target="_blank">
+            <a href="https://github.com/Jpm91297" target="_blank">
                 <AiFillGithub size="5rem" />
             </a>
             <a href="https://linkedin.com/in/mckinneyjp" target="_blank">

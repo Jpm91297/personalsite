@@ -42,7 +42,7 @@ const Header = ({openMenu, setOpenMenu}) => (
             </li>
         </div>
         <div className='social'>
-            <a href="https://github.com" target="_blank">
+            <a href="https://github.com/Jpm91297" target="_blank">
                 <AiFillGithub size="3rem" />
             </a>
             <a href="https://linkedin.com/in/mckinneyjp" target="_blank">
