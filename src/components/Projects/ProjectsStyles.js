@@ -40,9 +40,32 @@ export const ProjectCard = styled.div`
 
 `;
 
-export const Img = styled.img`
-    height: 256px;
-    width: 256px;
+export const Img = styled.div`
+    display: flex;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+
+
+    .project1 {
+        height: 107.4px;
+        width: 397.2px;
+
+
+        @media screen and (max-width: 500px) {
+            transform: scale(0.75);
+            padding: 0;
+            
+        }
+    }
+
+    .project3 {
+        height: 256px;
+        width: 256px;
+    }
+    
+
+
 `;
 
 export const Visit = styled.button`

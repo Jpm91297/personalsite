@@ -53,7 +53,7 @@ export const heroWrap = styled.div`
       grid-column-end: 2;
       grid-row-start: 1;
       grid-row-end: 4;
-      width: 300px;
+      width: 275px;
       height: 300px;
       border-radius: 100%;
       margin: auto;

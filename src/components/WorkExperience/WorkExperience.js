@@ -18,7 +18,8 @@ const data = [
         description: {
             desc1: 'Automation & Process Improvement via JavaScript, VBA, Business Objects, etc.',
             desc2: 'Led extensive data cleansing projects in order to feed quality information to new AI tools',
-            desc3: 'Created powerful dashboards to provide crystal clear view of data to executives & scientists '
+            desc3: 'Created powerful dashboards to provide crystal clear view of data to executives & scientists ',
+            desc4: 'Liaison between IT and management to communicate needs of project management software'
 
         },
     },
@@ -29,9 +30,10 @@ const data = [
         title: 'Software Engineer',
         time: '5/2020 - 9/2020',
         description: {
-            desc1: 'Back-end development team member for a web-based streaming MERN application',
+            desc1: 'Full-stack development team member for a web-based streaming MERN application',
             desc2: 'Created protected routes for user authentication via Facebook and Google strategies',
-            desc3: 'Effectively modeled data for seamless integration with non-relational database applications'
+            desc3: 'Effectively modeled data for seamless integration with non-relational database applications',
+            desc4: 'Participated in daily Scrum meetings, clearly relaying team progress and potential blockers'
 
         },
     },
@@ -44,7 +46,8 @@ const data = [
         description: {
             desc1: 'Implemented RPA to streamline various reports from SAP to reduce daily tasks for multiple departments using Automation Anywhere',
             desc2: 'Utilized Power BI to create effective dashboards for upper management',
-            desc3: 'Negotiated with multiple domestic suppliers to implement a consignment inventory system, reducing average inventory by over $3m'
+            desc3: 'Negotiated with multiple domestic suppliers to implement a consignment inventory system, reducing average inventory by over $3m',
+            desc4: 'Participated in daily meetings with upper management to initiate freight cost savings plans'
 
         },
     }
@@ -89,6 +92,9 @@ const WorkExperience = () => (
                     </li>
                     <li>
                         {company.description.desc3}
+                    </li>
+                    <li>
+                        {company.description.desc4}
                     </li>
                 </ul>
 

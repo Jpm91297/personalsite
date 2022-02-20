@@ -8,10 +8,12 @@ const Projects = () => (
         Projects
     </S.ProjectHeader>
     <S.GridContainer>
-        {projectList.map(( {id, image, title, description, visit}) => (
+        {projectList.map(( {id, customClass, image, title, description, visit}) => (
         <S.ProjectCard key={id}>
             <h1>{title}</h1>
-            <S.Img src={image} />
+            <S.Img>
+                <img src={image} className={customClass}  />
+            </S.Img>
             <p>{description}</p>
             <a href={visit} target="_blank">
                 <S.Visit >Visit</S.Visit>
