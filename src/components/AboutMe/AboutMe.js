@@ -44,13 +44,13 @@ const AboutMe = () => (
         onSwiper={(swiper) => console.log(swiper)}
       >
         <SwiperSlide>
-          <img src="images/image1.jpg" />
+          <img src="images/image4.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="images/image5.jpg" />
         </SwiperSlide>
         <SwiperSlide>
           <img src="images/image2.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="images/image3.jpg" />
         </SwiperSlide>
       </Swiper>
     </S.AboutMeWrap>
